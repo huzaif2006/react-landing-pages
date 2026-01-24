@@ -1,0 +1,80 @@
+.hero-container {
+  
+  background-image:  url('/public/hero.webp'); 
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  padding: 0 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-content {
+  flex: 1;
+  display: flex;
+  align-items: center; 
+  position: relative;
+  z-index: 2;
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.subtitle {
+  color: #d4a373; 
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.main-title {
+  color: white;
+  font-size: 4rem;
+  line-height: 1.1;
+  font-family:Macondo; 
+  margin-bottom: 30px;
+  font-weight: bolder;
+}
+
+.hero-action {
+  margin-top: 20px;
+}
+
+.overlay{
+position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.15); /* image dim */
+}
+
+
+/* ===================responsiveness====================== */
+
+
+@media (max-width: 992px) {
+  .main-title {
+    font-size: 3rem; 
+  }
+}
+
+/* Mobile Screens ke liye */
+@media (max-width: 600px) {
+  .hero-container {
+    padding: 0 20px; 
+    text-align: center; 
+  }
+
+  .hero-content {
+    justify-content: center; 
+  }
+
+  .main-title {
+    font-size: 2.2rem; 
+    margin-bottom: 20px;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+}

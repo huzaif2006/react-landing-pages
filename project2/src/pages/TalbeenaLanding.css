@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+.talbeena-landing {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}

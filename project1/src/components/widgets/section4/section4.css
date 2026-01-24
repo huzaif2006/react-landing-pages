@@ -1,0 +1,73 @@
+.featured-section {
+  padding: 50px 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.featured-title {
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  font-size: 42px;
+  margin-bottom: 40px;
+  color: #1a1a1a;
+}
+
+/* Grid layout: 3 columns for desktop */
+.treats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.treat-card {
+  text-align: left;
+}
+
+.treat-image {
+  width: 100%;
+  border-radius: 12px; /* Image ke corners rounded hain */
+  display: block;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+/* Name aur Price ko ek line mein laane ke liye flex use kiya */
+.treat-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.treat-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.treat-price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
+
+/* --- RESPONSIVE DESIGN --- */
+
+/* Tablets ke liye: 2 columns */
+@media (max-width: 900px) {
+  .treats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile ke liye: 1 column */
+@media (max-width: 600px) {
+  .treats-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .featured-title {
+    font-size: 32px;
+  }
+}

@@ -1,0 +1,35 @@
+.section2 {
+  height: 60vh;
+  background-color: red;
+  background-image: url("/sec2.png");
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  font-family: poppins;
+}
+
+.section2 h2 {
+  font-size: 50px;
+ 
+  text-align: center;
+  font-family: Macondo;
+}
+.section2 p {
+  font-size: 17px;
+  text-align: center;
+  color: rgb(124, 120, 120);
+}
+
+@media (max-width: 425px) {
+  .section2 h2 {
+    font-size: 40px;
+  }
+  .section2 p {
+    font-size: 14px;
+   
+  }
+}

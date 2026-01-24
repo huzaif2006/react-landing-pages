@@ -1,0 +1,49 @@
+.benefits-section {
+  background-color: #faf8f3;
+  padding: 5rem 2rem;
+}
+
+.benefits-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.benefits-title {
+  font-size: 2.8rem;
+  color: #2d5016;
+  text-align: center;
+  margin: 0 0 1rem 0;
+  font-weight: 700;
+}
+
+.benefits-subtitle {
+  font-size: 1.1rem;
+  color: #8b7355;
+  text-align: center;
+  margin: 0 0 3rem 0;
+  font-weight: 300;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .benefits-section {
+    padding: 3rem 1.5rem;
+  }
+
+  .benefits-title {
+    font-size: 2rem;
+  }
+
+  .benefits-subtitle {
+    font-size: 1rem;
+  }
+
+  .benefits-grid {
+    gap: 1.5rem;
+  }
+}
