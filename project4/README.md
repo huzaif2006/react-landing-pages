@@ -1,66 +1,16 @@
-# 🍯 Pure Honey Landing Page - Premium React Project
+# React + Vite
 
-A complete, production-ready landing page for a natural honey brand built with React and Vanilla CSS.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## ✨ Quick Start
+Currently, two official plugins are available:
 
-```bash
-npm install
-npm run dev
-```
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Open `http://localhost:5173` and see your beautiful landing page!
+## React Compiler
 
-## 📖 Documentation
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-- **START_HERE.md** ⭐ Quick project overview (read this first!)
-- **QUICK_START.md** - 5-minute startup guide
-- **USAGE_GUIDE.md** - How to customize
-- **COMPONENTS_REFERENCE.md** - Component specifications
-- **ARCHITECTURE_GUIDE.md** - Visual diagrams
-- **LANDING_PAGE_GUIDE.md** - Complete guide
+## Expanding the ESLint configuration
 
-## 📦 What You Get
-
-✅ 9 React functional components
-✅ 10 CSS files with professional styling
-✅ Responsive design (mobile, tablet, desktop)
-✅ Smooth animations and hover effects
-✅ Complete documentation
-✅ Dummy data included
-✅ Production-ready code
-✅ Easy to customize
-
-## 🎨 Features
-
-- Sticky navigation with mobile menu
-- Hero section with CTA button
-- About section with features
-- 6 product cards with prices
-- 6 benefit cards with icons
-- Call-to-action banner
-- Professional footer
-- Responsive grid layouts
-- Smooth animations
-
-## 🚀 Ready to Deploy
-
-Build for production:
-```bash
-npm run build
-```
-
-Then deploy the `dist/` folder to Vercel, Netlify, or any static hosting.
-
-## 🎯 Perfect For
-
-✅ Commercial honey brands
-✅ Portfolio projects
-✅ Homework assignments
-✅ Learning React
-✅ Template for similar businesses
-
----
-
-**Status:** ✅ Complete & Production-Ready  
-**Quality:** ⭐⭐⭐⭐⭐ Professional
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
